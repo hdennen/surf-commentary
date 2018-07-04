@@ -1,0 +1,24 @@
+{
+  "name": "surf-commentary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.9.4"
+  },
+  "scripts": {
+    "start": "parcel presentation/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdennen/surf-commentary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hdennen/surf-commentary/issues"
+  },
+  "homepage": "https://github.com/hdennen/surf-commentary#readme"
+}

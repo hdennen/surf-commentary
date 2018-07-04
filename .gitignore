@@ -1,0 +1,10 @@
+.idea
+.idea/*
+node_modules
+
+#parcel
+dist
+dist/*
+.cache
+.cache/*
+.DS_store
