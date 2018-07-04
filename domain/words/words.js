@@ -5,7 +5,8 @@ export const actions = [
     'boosts',
     'throws',
     'blasts',
-    'launches'
+    'launches',
+    'whips'
 ];
 
 export const surfObjects = [
@@ -21,8 +22,7 @@ export const prepositions = [
     'on',
     'into',
     'through',
-    'across',
-    'into'
+    'across'
 ];
 
 export const waveParts = [
@@ -30,7 +30,37 @@ export const waveParts = [
     'the tube',
     'the barrel',
     'the face',
-    'the air'
+    'the air',
+    'the foam',
+    'the pocket'
+];
+
+export const transitions = [
+    'for',
+    'with',
+    'to',
+    'into',
+];
+
+export const articles = [
+    'a',
+    'one',
+    'some kind of',
+    'this',
+    'that',
+    'the'
+];
+
+export const adjectives = [
+    'gnarly',
+    'sick',
+    'rad',
+    'heavy',
+    'massive',
+    'huge',
+    'perfect',
+    'smooth',
+    'critical'
 ];
 
 export const surfMoves = [
@@ -43,29 +73,8 @@ export const surfMoves = [
     'air reverse',
     'reverse',
     'layback',
+    'alley oop',
     'gouge',
     'drop wallet',
     'blow tail'
-];
-
-export const adjectives = [
-    'gnarly',
-    'sick',
-    'rad',
-    'heavy'
-];
-
-export const transitions = [
-    'for a',
-    'with a',
-    'to a',
-    'into a',
-];
-
-export const articles = [
-    'a',
-    'one',
-    'some kind of',
-    'this',
-    'that'
 ];

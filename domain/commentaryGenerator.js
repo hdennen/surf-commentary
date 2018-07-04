@@ -42,10 +42,10 @@ export class CommentaryGenerator {
     }
 
     transitionPhrase() {
-        const transIndex = generateRandom(words.transitions.length);
-        const transition = words.transitions[transIndex];
+        const transition = words.transitions[generateRandom(words.transitions.length)];
+        const article = words.articles[generateRandom(words.articles.length)];
 
-        return transition;
+        return transition + ' ' + article;
     }
 
 
